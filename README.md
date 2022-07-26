@@ -1,7 +1,7 @@
 # my-restaurant
 ##  ***Super food***
 -------------
-![meme1](https://lh3.googleusercontent.com/a-/AFdZucrJLRaJ-dOoPpOfP0vDFoa9C3R2KQEd_Wcfc13q5A=s96-c-rg-br100)
+
 
 ### *Arabic food*
 # Menu
