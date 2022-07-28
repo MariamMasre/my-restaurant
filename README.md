@@ -20,3 +20,6 @@
 4-**mkmora**
 
 ![meme1](https://cdn.al-ain.com/lg/images/2021/4/10/78-205922-traditional-food-jordan-7.jpeg)
+
+ **wireframe**
+![wireframe](./img/Screenshot%202022-07-27%20171009.png)
