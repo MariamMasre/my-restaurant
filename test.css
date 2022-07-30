@@ -1,0 +1,15 @@
+h1{
+ color: #000;
+ font-size: 50px;
+ background: #FAEBD7;
+ 
+ border: #000 5px solid;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+footer{
+    background: #FAEBD7;
+ 
+    border: #000 5px solid;
+    text-align: center;
+}
