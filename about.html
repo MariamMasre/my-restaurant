@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' rel='stylesheet'/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./test2.css">
 </head>
 <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                </ul>
-             </nav>
-          </header>
-        <main>
-            <table border="1">
-                <thead> menu</thead>
-                <tbody >
-                    <tr><tb></tb><tb></tb></tr>
-                    <tr><tb></tb><tb></tb></tr>
-                    <tr><tb></tb><tb></tb></tr>
-                    <tr><tb></tb><tb></tb></tr>
-                    <tr><tb></tb><tb></tb></tr>
+    <header>
+        <h2><a href="#" class="logo">Super Food </a></h2>
+        <ul>
+            <li><a href="./index.html" >Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="./about.html" class="active" >About</a></li>
+            <li><a href="#">Contact</a></li>
 
-                    
-                    <img src="https://cdn.al-ain.com/lg/images/2021/4/10/78-205920-traditional-food-jordan-2.jpeg" alt="Mansaf">
-           
-                    <h3> mkloba </h3> 
-                    <img src="https://cdn.al-ain.com/lg/images/2021/4/10/78-205921-traditional-food-jordan-3.jpeg" alt="mkloba">
-           
-                    <h3> Mskan </h3> 
-                    <img src="https://cdn.al-ain.com/lg/images/2021/4/10/78-205921-traditional-food-jordan-5.jpeg" alt="Mskan">
-           
-                    <h3> kbaa </h3> 
-                    <img src="https://cdn.al-ain.com/lg/images/2021/4/10/78-205921-traditional-food-jordan-6.jpeg" alt="kbaa">
-           
-                    <h3> mkmora </h3> 
-                    <img src="https://cdn.al-ain.com/lg/images/2021/4/10/78-205922-traditional-food-jordan-7.jpeg" alt="mkmora">
-               </tbody>
-             </table>
-        </main>
-        <footer>
-            <h5> Location: Madaba </h5>
-            <h5> contact information: 077****** </h5>
-            <h5>  social media accounts:  <li><a href="https://app.slack.com/client/TNGRRLUMA/CNHA2G8GG">mariam almasri</a></li> </h5>
+        </ul>
+
         
-        </footer> 
+       </header>
+       <section class="container">
+        <div class="card">
+            <div class="card-image car-1"></div>
+            <h2>Cheesecake </h2>
+            <p>It is a dessert made of several layers. The bottom layer consists of biscuits and the top layer is cream cheese. Cheesecake can be covered or decorated with a layer of jam or different types of fruits such as strawberries, berries, and others. Cheesecakes have their origin in Greece and are prepared in most parts of the world.</p>
+       <a href=""> READ MORE</a>
+        </div>
+        <div class="card">
+            <div class="card-image car-2"></div>
+            <h2>stuffed chocolate</h2>
+            <p>It is a stuffed shape according to the customer's request</p>
+            <a href=""> READ MORE</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image car-3"></div>
+            <h2>sweet sweetness</h2>
+            <p>Sweets distinct in taste and shape for children. The sweetness of jelly is one of the most delicious types of sweets, which are characterized by a variety of shapes, sizes and colors.</p>
+            <a href=""> READ MORE</a>
+        </div>
+
+
+       </section>
+       
+        
 </body>
+<footer>
+    <b:if cond='data:view.isSingleItem'>
+    <div class="social-share">
+    <ul>
+      <li class="share-now"><i class="fas fa-share-alt"></i></li>
+      <li>
+          <a expr:href='"https://www.facebook.com/sharer.php?u=" + data:post.url.canonical' target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://twitter.com/intent/tweet?url=" + data:post.url.canonical + "&amp;text=" + data:post.title' rel="nofollow" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://www.linkedin.com/shareArticle?url=" + data:post.url.canonical' rel="nofollow" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://www.pinterest.com/pin/create/button/?url=" + data:post.url.canonical + "&amp;media=" + data:post.featuredImage + "&amp;description=" + data:post.title' rel="nofollow" target="_blank" title="Pinterest">
+              <i class="fab fa-pinterest-p"></i>
+          </a>
+      </li>
+      <li>
+          <a expr:href='"https://api.whatsapp.com/send?text=" + data:post.title + " | " + data:post.url.canonical' rel="nofollow" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://reddit.com/submit?url=" + data:post.url.canonical + "&amp;title=" + data:post.title' rel="nofollow" target="_blank" title="Reddit"><i class="fab fa-reddit-alien"></i></a>
+      </li>
+      
+  </ul>
+</div>
+<!--./social-share-->
+</b:if>
+   </footer>
 </html>
