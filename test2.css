@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(37, 9, 56),rgb(212, 64, 193));
+   
+    font-family:'Franklin Gothic Medium';
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 234, 241);
+}
+header{
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+header .logo{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+    }
+    header ul li a{
+        padding: 6px 15px;
+        border-radius: 20px;
+        }
+        header ul li a:hover,.active{
+            background: #FFE4E1;
+            color: #4B0082;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+            padding:90px ;
+
+        }
+        .card{
+            background: #FFE4E1;
+            width: 270px;
+            
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        .card-image{
+           
+            height: 170px;
+            margin-bottom: 15px;
+           background-size: cover;
+           border-radius: 15px 15px 0 0;
+
+        }
+        .car-1{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJmIusahW1k8Dfn2U7HsYpRYFnPrjgcojeMg&usqp=CAU');
+        }
+
+        .car-2{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ZXjgCYImGri-E2B04L5Og1yPVJOsg6S3XQ&usqp=CAU');
+        }
+
+        .car-3{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6PlTyUX-cCgHzJOoyhU8fF0XT_K36Lr6UEg&usqp=CAU');
+        }
+
+        .card p{
+            padding: 10px;
+        }
+        .card a{
+            margin-bottom: 15px;
+            border-radius: 15px 15px 0 0;
+            background-color: #4B0082;
+            padding: 15px 20px;
+            display: block;
+            text-align: center;
+            margin: 20px 50px;
+            text-decoration: none;
+        }
+        .card:hover{
+            background-color: #96296c;
+            color: rgb(58, 11, 58);
+            cursor: pointer;
+            transform: scale(1.03);
+            transition: all is ease;
+
+        }
+
+
+        
+
+.social-share{display:block;overflow:hidden;margin:5px ; }
+   .social-share ul{margin:100px;padding:0px;list-style:none}
+   li.share-now i{font-size:15px;padding: 5px;height:20px;width:20px;text-align:center}
+   .social-share ul li{float:left;margin-left:1rem}
+   .social-share ul li a i{color:#fff;font-size:15px;padding: 5px;height:20px;width:20px;text-align:center;border-radius:25%;opacity:2}
+   .social-share ul li a i:hover{opacity:.7}
+   .social-share ul li a i.fa-twitter{background-color:#1da1f2}
+   .social-share ul li a i.fa-facebook-f{background-color:#3b5998}
+   .social-share ul li a i.fa-whatsapp{background-color:#25d366}
+   
+   .social-share ul li a i.fa-reddit-alien{background-color:#ff4500}
+   .social-share ul li a i.fa-linkedin-in{background-color:#0077b5}
+   .social-share ul li a i.fa-pinterest-p{background-color:#e60023}
+   

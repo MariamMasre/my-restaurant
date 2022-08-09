@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css' rel='stylesheet'/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,66 @@
 </head>
 <body>
     <header>
-        <li><a href="./about.html">Restaurant menu</a></li>
-        <h1> Super food </h1>
-        <h3> Arabic food </h3>
-        <img src="./img/c6edf142-8f14-453e-9d08-9a429039874e.jpg" alt="logo">
-    </header>
-    <main>
-        <h3>The restaurant offers meals of the type of Arabic food with free delivery service
-            And the service of canceling the order after half an hour of ordering</h3>
-    </main>
-    <footer>
-        <h5> Location: Madaba </h5>
-        <h5> contact information: 077****** </h5>
-        <h5>  social media accounts:  <li><a href="https://app.slack.com/client/TNGRRLUMA/CNHA2G8GG">mariam almasri</a></li> </h5>
+        <h2><a href="#" class="logo">Super Food </a></h2>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
         
-    </footer>
+       </header>
+    <section class="main">
+       
+        <img src="https://i0.wp.com/nouvil.net/wp-content/uploads/2022/01/stars1.png?ssl=1" id="stars" >
+        
+        <img cul src="https://i0.wp.com/nouvil.net/wp-content/uploads/2022/01/moon2.png?ssl=1" id="moon">
+        <img src="https://i0.wp.com/nouvil.net/wp-content/uploads/2022/01/mountains3.png?ssl=1" id="mountains3">
+        <img src="https://i2.wp.com/nouvil.net/wp-content/uploads/2022/01/mountains4.png?ssl=1" id="mountains4">
+        <img src="https://i1.wp.com/nouvil.net/wp-content/uploads/2022/01/river5.png?ssl=1" id="river">
+        <img src="https://i2.wp.com/nouvil.net/wp-content/uploads/2022/01/boat6.png?ssl=1" id="boat">
+        <img src="https://i0.wp.com/nouvil.net/wp-content/uploads/2022/01/mountains7.png?ssl=1" id="mountains7">
+
+    </section>
+    <div class="content">
+        <h2>A store that sells all kinds of sweets</h2>
+    <p>A website that works to deliver sweets in all its forms with the availability of many services in addition to the speed of work and delivery within 8 hours from the start of confirming the order with free delivery service to all governorates</p>
+    </div>
+    <script src="./main.js"></script>
+
 </body>
+<footer>
+    <b:if cond='data:view.isSingleItem'>
+    <div class="social-share">
+    <ul>
+      <li class="share-now"><i class="fas fa-share-alt"></i></li>
+      <li>
+          <a expr:href='"https://www.facebook.com/sharer.php?u=" + data:post.url.canonical' target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://twitter.com/intent/tweet?url=" + data:post.url.canonical + "&amp;text=" + data:post.title' rel="nofollow" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://www.linkedin.com/shareArticle?url=" + data:post.url.canonical' rel="nofollow" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://www.pinterest.com/pin/create/button/?url=" + data:post.url.canonical + "&amp;media=" + data:post.featuredImage + "&amp;description=" + data:post.title' rel="nofollow" target="_blank" title="Pinterest">
+              <i class="fab fa-pinterest-p"></i>
+          </a>
+      </li>
+      <li>
+          <a expr:href='"https://api.whatsapp.com/send?text=" + data:post.title + " | " + data:post.url.canonical' rel="nofollow" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+      </li>
+      <li>
+          <a expr:href='"https://reddit.com/submit?url=" + data:post.url.canonical + "&amp;title=" + data:post.title' rel="nofollow" target="_blank" title="Reddit"><i class="fab fa-reddit-alien"></i></a>
+      </li>
+      
+  </ul>
+</div>
+<!--./social-share-->
+</b:if>
+   </footer>
 </html>
